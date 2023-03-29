@@ -1,4 +1,9 @@
-.heading {
-    color: #972340;
-    
+body {
+    text-align: center;
+    margin: 0;
+    background: #bf4d5d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }

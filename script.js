@@ -1,9 +1,9 @@
 console.log('hello world')
 //Cached Variables 
 const display = document.querySelector("#display")
-const buttons = document.querySelector("button")
+const buttons = document.querySelectorAll("button")
 
-//Calculator Logic
+// Calculator Logic
 buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
         if(btn.id === '='){
@@ -15,5 +15,7 @@ buttons.forEach((btn) => {
         }else {
             display.value += btn.id
         }
-    })
-})
+    });
+});
+
+
